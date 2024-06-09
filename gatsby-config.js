@@ -1,0 +1,44 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
+
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
+module.exports = {
+  siteMetadata: {
+    title: `Dark Castle`,
+    description: `🏰 🌲 A sophisticated and elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.`,
+    author: `@scottgriv`,
+    siteUrl: `https://darkcastle.netlify.app/`,
+  },
+  plugins: [
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Dark Castle Theme`,
+        short_name: `Dark Castle`,
+        start_url: `/`,
+        background_color: `#0A69FA`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        theme_color: `#0A69FA`, // Blue
+        display: `minimal-ui`,
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        display: `standalone`,
+      },
+    },
+  ],
+}
