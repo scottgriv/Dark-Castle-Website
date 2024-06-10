@@ -24,7 +24,7 @@
 <h3 align="center">One theme to rule them all...</h3>
 <br>
 <p align="center">
-    <a href="https://app.netlify.com/sites/nightowllabs/deploys"><img src="https://api.netlify.com/api/v1/badges/38516967-7780-400e-bc3a-2807a946596c/deploy-status" alt="Netlify Status" /></a>
+    <a href="https://app.netlify.com/sites/darkcastle/deploys"><img src="https://api.netlify.com/api/v1/badges/d9e331fd-4e1c-4a1a-8279-992b48b89705/deploy-status" alt="Netlify Status" /></a>
 </p>
 <p align="center">
   A sophisticated and elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.
