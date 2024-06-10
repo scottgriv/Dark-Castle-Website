@@ -35,15 +35,15 @@ function Seo({ description, title, children }) {
       <meta name="robots" content="index, follow" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:image" content="/images/products/Bee-Heard.png" />
+      <meta property="og:image" content="/images/main/banner_social.png" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ""} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content="/images/products/Bee-Heard.png" />
-      <meta name="msapplication-TileColor" content="#039C10" />
-      <meta name="theme-color" content="#039C10" />
+      <meta name="twitter:image" content="/images/main/banner_social.png" />
+      <meta name="msapplication-TileColor" content="#000000" />
+      <meta name="theme-color" content="#575757" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
