@@ -43,7 +43,7 @@ function Seo({ description, title, children }) {
       <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content="/images/main/banner_social.png" />
       <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="theme-color" content="#575757" />
+      <meta name="theme-color" content="#FF8040" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
