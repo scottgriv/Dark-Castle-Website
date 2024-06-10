@@ -11,13 +11,13 @@ const Header = () => {
         <div id="headlogo">
           <Link to="/">
             <img
-              src="/images/company/nol-banner_large.png"
+              src="/images/main/banner_large.png"
               alt="Dark Castle Theme"
               title="Dark Castle Theme"
               className="desktop-logo"
             />
             <img
-              src="/images/company/nol-banner_small.png"
+              src="/images/main/banner_small.png"
               alt="Dark Castle Theme"
               title="Dark Castle Theme"
               className="mobile-logo"
