@@ -12,7 +12,7 @@ export default function Home() {
         medieval castles, this theme combines rich, deep colors with a clean and
         modern design.
       </p>
-      <div class="screenshot-container">
+      <div className="screenshot-container">
         <a
           href="https://github.com/scottgriv/Dark-Castle-Theme/"
           target="_blank"
@@ -21,7 +21,7 @@ export default function Home() {
           <img
             src="/images/samples/screenshot.png"
             alt="Screenshot"
-            class="screenshot"
+            className="screenshot"
           />
         </a>
       </div>
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="platform-grid">
         <a
           className="platform-card"
-          href="https://code.visualstudio.com/"
+          href="https://github.com/scottgriv/Dark-Castle-VSCode"
           target="_blank"
           rel="noreferrer"
         >
@@ -48,46 +48,46 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Notepad-Plus-Plus"
           target="_blank"
           rel="noreferrer"
         >
           <img
             src="/images/platforms/notepad++.png"
-            alt="BBEdit"
+            alt="Notepad++"
             className="icon"
           />
           <span className="label">Notepad++</span>
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Xcode"
           target="_blank"
           rel="noreferrer"
         >
           <img
             src="/images/platforms/xcode.png"
-            alt="BBEdit"
+            alt="Xcode"
             className="icon"
           />
           <span className="label">Xcode</span>
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Obsidian"
           target="_blank"
           rel="noreferrer"
         >
           <img
             src="/images/platforms/obsidian.png"
-            alt="BBEdit"
+            alt="Obsidian"
             className="icon"
           />
           <span className="label">Obsidian</span>
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-BBEdit"
           target="_blank"
           rel="noreferrer"
         >
@@ -100,35 +100,35 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Warp"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/images/platforms/warp.png" alt="BBEdit" className="icon" />
+          <img src="/images/platforms/warp.png" alt="Warp" className="icon" />
           <span className="label">Warp</span>
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Sketch"
           target="_blank"
           rel="noreferrer"
         >
           <img
             src="/images/platforms/sketch.png"
-            alt="BBEdit"
+            alt="Sketch"
             className="icon"
           />
           <span className="label">Sketch</span>
         </a>
         <a
           className="platform-card"
-          href="https://www.barebones.com/products/bbedit/"
+          href="https://github.com/scottgriv/Dark-Castle-Wallpaper"
           target="_blank"
           rel="noreferrer"
         >
           <img
             src="/images/platforms/wallpaper.png"
-            alt="BBEdit"
+            alt="Wallpaper"
             className="icon"
           />
           <span className="label">Wallpaper</span>
@@ -168,6 +168,36 @@ export default function Home() {
         <div className="color-palette-grid">
           <div
             className="color-circle"
+            style={{ backgroundColor: "#000000" }}
+            title="#000000"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#292929" }}
+            title="#292929"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#575757" }}
+            title="#575757"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#9C9C9C" }}
+            title="#9C9C9C"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#FFFFFF" }}
+            title="#FFFFFF"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#EF6B73" }}
+            title="#EF6B73"
+          ></div>
+          <div
+            className="color-circle"
             style={{ backgroundColor: "#FF8040" }}
             title="#FF8040"
           ></div>
@@ -178,43 +208,8 @@ export default function Home() {
           ></div>
           <div
             className="color-circle"
-            style={{ backgroundColor: "#292929" }}
-            title="#292929"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#9C9C9C" }}
-            title="#9C9C9C"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#0D8501" }}
-            title="#0D8501"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FF000F" }}
-            title="#FF000F"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#AA1B86" }}
-            title="#AA1B86"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FF5503" }}
-            title="#FF5503"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#08D220" }}
-            title="#08D220"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#9354FF" }}
-            title="#9354FF"
+            style={{ backgroundColor: "#BAE67E" }}
+            title="#BAE67E"
           ></div>
           <div
             className="color-circle"
@@ -223,8 +218,13 @@ export default function Home() {
           ></div>
           <div
             className="color-circle"
-            style={{ backgroundColor: "#007B88" }}
-            title="#007B88"
+            style={{ backgroundColor: "#FF000F" }}
+            title="#FF000F"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#08D220" }}
+            title="#08D220"
           ></div>
           <div
             className="color-circle"
@@ -233,8 +233,28 @@ export default function Home() {
           ></div>
           <div
             className="color-circle"
-            style={{ backgroundColor: "#BAE67E" }}
-            title="#BAE67E"
+            style={{ backgroundColor: "#9354FF" }}
+            title="#9354FF"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#0D8501" }}
+            title="#0D8501"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#007B88" }}
+            title="#007B88"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#2D449B" }}
+            title="#2D449B"
+          ></div>
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#AA1B86" }}
+            title="#AA1B86"
           ></div>
         </div>
       </div>

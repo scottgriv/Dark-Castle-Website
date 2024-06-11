@@ -31,10 +31,10 @@ module.exports = {
         name: `Dark Castle Theme`,
         short_name: `Dark Castle`,
         start_url: `/`,
-        background_color: `#FF8040`,
+        background_color: `#BAE67E`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        theme_color: `#FF8040`, // Blue
+        theme_color: `#BAE67E`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
         display: `standalone`,
