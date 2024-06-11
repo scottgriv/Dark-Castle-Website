@@ -28,6 +28,8 @@
   A sophisticated and elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.
 </p>
 
+![Screenshot](./screenshot.png)
+
 This is official website for **[Dark Castle Theme](https://github.com/scottgriv/Dark-Castle-Theme)**.
 
 - Visit the website that's built by this repository [here](https://darkcastle.netlify.app).
