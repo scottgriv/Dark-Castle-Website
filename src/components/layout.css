@@ -521,7 +521,7 @@ button:focus {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .title-header-large {
     display: none;
   }
