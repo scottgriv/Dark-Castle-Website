@@ -521,12 +521,25 @@ button:focus {
   }
 }
 
-@media screen and (max-width: 456px) {
+/* For iPhone 15 Pro Max */
+@media screen and (max-width: 428px) {
   .title-header-large {
-    display: none;
+    display: block; /* Display the large header */
   }
 
   .title-header-small {
-    display: block;
+    display: none; /* Hide the small header */
   }
 }
+
+/* For iPhone 15 Pro */
+@media screen and (max-width: 375px) {
+  .title-header-large {
+    display: none; /* Hide the large header */
+  }
+
+  .title-header-small {
+    display: block; /* Display the small header */
+  }
+}
+
