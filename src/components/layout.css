@@ -519,6 +519,14 @@ button:focus {
     width: 30px;
     height: 30px;
   }
+  
+  .title-header-large {
+    display: none;
+  }
+
+  .title-header-small {
+    display: block;
+  }
 }
 
 /* For iPhone 15 Pro Max */
