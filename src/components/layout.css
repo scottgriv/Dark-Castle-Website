@@ -97,7 +97,7 @@ a {
 .social-links-footer {
   display: flex;
   flex-wrap: wrap; /* Ensure items can wrap */
-  gap: 10px; /* Space between icons */
+  gap: 12px; /* Space between icons */
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -115,7 +115,7 @@ a {
   transform: translateY(-5px); /* Moves the button up */
 }
 
-.fa-code-fork {
+.fa-code-fork, .fa-building, .fa-code-branch {
   font-size: 22px; /* Shrink Fork Icon size */
 }
 

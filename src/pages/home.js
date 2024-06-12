@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="title-header-small">🏰 Dark Castle Theme 🌲</h1>
       <p className="subtitle">One theme to rule them all...</p>
       <p>
-        Dark Castle is a sophisticated and elegant dark theme available for
+        Dark Castle is a vibrantly elegant dark theme available for
         multiple platforms. Inspired by the timeless beauty and mystery of
         medieval castles, this theme combines rich, deep colors with a clean and
         modern design.

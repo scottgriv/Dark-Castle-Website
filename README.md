@@ -25,7 +25,7 @@
     <a href="https://app.netlify.com/sites/darkcastle/deploys"><img src="https://api.netlify.com/api/v1/badges/d9e331fd-4e1c-4a1a-8279-992b48b89705/deploy-status" alt="Netlify Status" /></a>
 </p>
 <p align="center">
-  A sophisticated and elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.
+  A vibrantly elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.
 </p>
 
 <div align="center">
