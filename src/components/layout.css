@@ -25,7 +25,7 @@ body {
 
 h1 {
   color: #bae67e; /* Text color - adjust as needed */
-  font-size: 2.5rem; /* Adjust the font size as needed */
+  text-align: center; /* Center align the text */
 }
 
 h2,
@@ -273,6 +273,12 @@ button:focus {
 
 .title-header-small {
   text-align: center;
+  display: none; /* Display the line break as a block element */
+}
+
+.title-header-large {
+  text-align: center;
+  display: block; /* Display the line break as a block element */
 }
 
 /* Platform Grid Styling */
@@ -405,10 +411,6 @@ button:focus {
     box-sizing: border-box;
   }
 
-  h1 {
-    font-size: 1.5rem; /* Adjust the font size as needed */
-  }
-
   .subtitle {
     text-align: center;
     color: #4dbced; /* Font color */
@@ -469,14 +471,6 @@ button:focus {
     height: auto;
   }
 
-  .title-header-large {
-    font-size: 30px;
-  }
-
-  .title-header-small {
-    font-size: 25px;
-  }
-
   .faq-header-small {
     font-size: 25px;
   }
@@ -524,5 +518,15 @@ button:focus {
   .color-circle {
     width: 30px;
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .title-header-large {
+    display: none;
+  }
+
+  .title-header-small {
+    display: block;
   }
 }

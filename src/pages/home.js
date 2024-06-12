@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 export default function Home() {
   return (
     <Layout>
-      <h1 className="title-header-small">🏰 Dark Castle Theme 🌲</h1>
+      <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
+      <h1 className="title-header-small">🏰 Dark Castle<br/>Theme 🌲</h1>
       <p className="subtitle">One theme to rule them all...</p>
       <p>
         Dark Castle is a vibrantly elegant dark theme available for
