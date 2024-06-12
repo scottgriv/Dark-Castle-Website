@@ -522,7 +522,7 @@ button:focus {
 }
 
 /* For iPhone 15 Pro Max */
-@media only screen and (max-device-width: 428px) {
+@media only screen and (max-device-width: 430px) {
   .title-header-large {
     display: block; /* Display the large header */
   }
