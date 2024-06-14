@@ -36,7 +36,7 @@ export default function Home() {
       <div className="platform-grid">
         <a
           className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-VSCode"
+          href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
           target="_blank"
           rel="noreferrer"
         >
