@@ -394,6 +394,30 @@ button:focus {
   transform: translateY(-5px); /* Slightly raise on hover */
 }
 
+.platform-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.color-palette-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.custom-alert {
+  position: absolute; /* Position relative to the container */
+  top: 0; /* Adjust to position below the h2 */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #292929;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid; /* Border color will match the text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the alert is on top */
+  color: inherit; /* Ensure text color is inherited */
+}
+
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
 @media screen and (max-width: 804px) {

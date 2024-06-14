@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import ColorPalette from './ColorPalette';
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
         </a>
       </div>
 
-      <h2>Platforms</h2>
+      <h2 className="platform-wrapper">Platforms</h2>
       <p>
         Dark Castle is available for a variety of platforms to ensure you can
         enjoy a consistent and visually appealing coding experience no matter
@@ -164,100 +165,8 @@ export default function Home() {
         range of platforms still to be covered. Your contributions are
         invaluable in helping us expand and improve this theme for everyone!
       </p>
-      <h2>Color Palette</h2>
-      <div className="color-palette-container">
-        <div className="color-palette-grid">
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#000000" }}
-            title="#000000"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#292929" }}
-            title="#292929"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#575757" }}
-            title="#575757"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#9C9C9C" }}
-            title="#9C9C9C"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FFFFFF" }}
-            title="#FFFFFF"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#EF6B73" }}
-            title="#EF6B73"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FF8040" }}
-            title="#FF8040"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FFD580" }}
-            title="#FFD580"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#BAE67E" }}
-            title="#BAE67E"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#4DBCED" }}
-            title="#4DBCED"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#FF000F" }}
-            title="#FF000F"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#08D220" }}
-            title="#08D220"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#4164FF" }}
-            title="#4164FF"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#9354FF" }}
-            title="#9354FF"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#0D8501" }}
-            title="#0D8501"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#007B88" }}
-            title="#007B88"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#2D449B" }}
-            title="#2D449B"
-          ></div>
-          <div
-            className="color-circle"
-            style={{ backgroundColor: "#AA1B86" }}
-            title="#AA1B86"
-          ></div>
-        </div>
+      <div>
+        <ColorPalette />
       </div>
     </Layout>
   )
