@@ -63,7 +63,7 @@ const Footer = () => {
               <i className="fa-solid fa-palette"></i>
             </a>
             <a
-              href="https://marketplace.visualstudio.com/publishers/scottgriv"
+              href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
               target="_blank"
               rel="noreferrer"
             >
