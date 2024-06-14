@@ -154,7 +154,7 @@ export default function Home() {
         our theme conquest by{" "}
         <a
           className="regular-link"
-          href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#how-do-i-submit-a-new-theme"
+          href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#faq"
           target="_blank"
           rel="noreferrer"
         >
