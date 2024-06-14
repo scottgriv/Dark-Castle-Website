@@ -416,6 +416,17 @@ button:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 1000; /* Ensure the alert is on top */
   color: inherit; /* Ensure text color is inherited */
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  user-select: none; /* Prevent text selection */
+}
+
+.custom-alert.show {
+  opacity: 1; /* Show alert */
+}
+
+.custom-alert span {
+  cursor: pointer; /* Make the text cursor a pointer */
 }
 
 /* Media Queries */
