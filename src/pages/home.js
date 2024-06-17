@@ -89,6 +89,19 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-MySQL-Workbench"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/workbench.png"
+            alt="MySQL Workbench"
+            className="icon"
+          />
+          <span className="label">MySQL Workbench</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-BBEdit"
           target="_blank"
           rel="noreferrer"
@@ -111,6 +124,32 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Terminal-App"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/terminal.png"
+            alt="Terminal.app"
+            className="icon"
+          />
+          <span className="label">Terminal.app</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-SwiftUI"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/swiftui.png"
+            alt="SwiftUI"
+            className="icon"
+          />
+          <span className="label">SwiftUI</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-Sketch"
           target="_blank"
           rel="noreferrer"
@@ -121,6 +160,19 @@ export default function Home() {
             className="icon"
           />
           <span className="label">Sketch</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Figma"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/figma.png"
+            alt="Figma"
+            className="icon"
+          />
+          <span className="label">Figma</span>
         </a>
         <a
           className="platform-card"
