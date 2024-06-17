@@ -1,18 +1,22 @@
 import React from "react"
 import Layout from "../components/layout"
-import ColorPalette from './ColorPalette';
+import ColorPalette from "./ColorPalette"
 
 export default function Home() {
   return (
     <Layout>
       <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
-      <h1 className="title-header-small">🏰 Dark Castle<br/>Theme 🌲</h1>
+      <h1 className="title-header-small">
+        🏰 Dark Castle
+        <br />
+        Theme 🌲
+      </h1>
       <p className="subtitle">One theme to rule them all...</p>
       <p>
-        Dark Castle is a vibrantly elegant dark theme available for
-        multiple platforms. Inspired by the timeless beauty and mystery of
-        medieval castles, this theme combines rich, deep colors with a clean and
-        modern design.
+        Dark Castle is a vibrantly elegant dark theme available for multiple
+        platforms. Inspired by the timeless beauty and mystery of medieval
+        castles, this theme combines rich, deep colors with a clean and modern
+        design.
       </p>
       <div className="screenshot-container">
         <a
@@ -67,11 +71,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="/images/platforms/xcode.png"
-            alt="Xcode"
-            className="icon"
-          />
+          <img src="/images/platforms/xcode.png" alt="Xcode" className="icon" />
           <span className="label">Xcode</span>
         </a>
         <a
@@ -86,6 +86,19 @@ export default function Home() {
             className="icon"
           />
           <span className="label">Obsidian</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Sublime"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/sublime.png"
+            alt="Sublime"
+            className="icon"
+          />
+          <span className="label">Sublime</span>
         </a>
         <a
           className="platform-card"
@@ -115,25 +128,38 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Terminal-App"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/terminal-app.png"
+            alt="Terminal.app"
+            className="icon"
+          />
+          <span className="label">Terminal.app</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Windows-Terminal"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/windows-terminal.png"
+            alt="Windows Terminal"
+            className="icon"
+          />
+          <span className="label">Windows Terminal</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-Warp"
           target="_blank"
           rel="noreferrer"
         >
           <img src="/images/platforms/warp.png" alt="Warp" className="icon" />
           <span className="label">Warp</span>
-        </a>
-        <a
-          className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-Terminal-App"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="/images/platforms/terminal.png"
-            alt="Terminal.app"
-            className="icon"
-          />
-          <span className="label">Terminal.app</span>
         </a>
         <a
           className="platform-card"
@@ -167,11 +193,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="/images/platforms/figma.png"
-            alt="Figma"
-            className="icon"
-          />
+          <img src="/images/platforms/figma.png" alt="Figma" className="icon" />
           <span className="label">Figma</span>
         </a>
         <a
@@ -198,7 +220,7 @@ export default function Home() {
             alt="GitHub"
             className="icon"
           />
-          <span className="label">GitHub</span>
+          <span className="label">GitHub Repository</span>
         </a>
         {/* Add more platform cards as needed */}
       </div>
