@@ -7,9 +7,7 @@ export default function Home() {
     <Layout>
       <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
       <h1 className="title-header-small">
-        🏰 Dark Castle
-        <br />
-        Theme 🌲
+        Dark Castle Theme
       </h1>
       <p className="subtitle">One theme to rule them all...</p>
       <p>
