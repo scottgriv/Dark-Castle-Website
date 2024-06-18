@@ -37,6 +37,7 @@ const ColorPalette = () => {
 
   const colors = [
     "#000000",
+    "#1A1A1A",
     "#292929",
     "#575757",
     "#9C9C9C",
@@ -47,6 +48,7 @@ const ColorPalette = () => {
     "#BAE67E",
     "#4DBCED",
     "#FF000F",
+    "#FF5503",
     "#08D220",
     "#4164FF",
     "#9354FF",

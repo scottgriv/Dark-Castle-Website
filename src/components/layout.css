@@ -105,14 +105,14 @@ a {
 
 .social-links a,
 .social-links-footer a {
-  color: #ff8040; /* Icon color */
+  color: #BAE67E; /* Icon color */
   font-size: 24px; /* Icon size */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
 }
 
 .social-links a:hover,
 .social-links-footer a:hover {
-  color: #aa1b86; /* Green color for links hover effect, change as needed */
+  color: #007B88; /* Green color for links hover effect, change as needed */
   transform: translateY(-5px); /* Moves the button up */
 }
 
@@ -263,8 +263,9 @@ button:focus {
 
 .subtitle {
   text-align: center;
-  color: #4dbced; /* Font color */
+  color: #4DBCED; /* Font color */
   font-size: 30px;
+  font-style: italic;
 }
 
 .text-center {
@@ -323,7 +324,7 @@ button:focus {
 
 .color-palette-grid {
   display: grid;
-  grid-template-columns: repeat(9, 1fr); /* 7 columns */
+  grid-template-columns: repeat(10, 1fr); /* 7 columns */
   gap: 20px;
   margin-top: 20px;
   justify-content: center; /* Center horizontally */
@@ -448,8 +449,9 @@ button:focus {
 
   .subtitle {
     text-align: center;
-    color: #4dbced; /* Font color */
+    color: #4DBCED; /* Font color */
     font-size: 20px;
+    font-style: italic;
   }
 
   .platform-grid {
@@ -545,7 +547,7 @@ button:focus {
 
   .color-palette-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Adjust columns for better fit */
+    grid-template-columns: repeat(5, 1fr); /* Adjust columns for better fit */
     gap: 10px;
     margin-top: 20px;
   }
