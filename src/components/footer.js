@@ -7,6 +7,7 @@ const Footer = () => {
 
   return (
     <>
+      <hr />
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
           <div className="social-links-footer">

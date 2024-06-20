@@ -18,7 +18,7 @@
 
 ---
 
-<h1 align="center">🏰 Dark Castle Theme 🌲</h1>
+<h1 align="center">🏰 Dark Castle Theme Website 🌲</h1>
 <h3 align="center">One theme to rule them all...</h3>
 <br>
 <p align="center">

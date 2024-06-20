@@ -48,6 +48,14 @@ a {
   color: #ff8040; /* 4164FF links */
 }
 
+/* Customize the horizontal rule */
+hr {
+  border: none; /* Remove the default border */
+  border-top: 2px solid #2D449B; /* Set the top border color and thickness */
+  width: 75%; /* Set the desired width */
+  margin: 20px auto; /* Center the <hr> element */
+}
+
 .desktop-logo,
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */
@@ -105,14 +113,14 @@ a {
 
 .social-links a,
 .social-links-footer a {
-  color: #BAE67E; /* Icon color */
+  color: #FFFFFF; /* Icon color */
   font-size: 24px; /* Icon size */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
 }
 
 .social-links a:hover,
 .social-links-footer a:hover {
-  color: #007B88; /* Green color for links hover effect, change as needed */
+  color: #4164FF; /* Green color for links hover effect, change as needed */
   transform: translateY(-5px); /* Moves the button up */
 }
 
