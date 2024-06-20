@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
     <>
       <Seo
         title="Dark Castle Theme"
-        description="One theme to rule them all."
+        description="A vibrantly elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design."
       />
       <div id="pagecontent">
         <header>

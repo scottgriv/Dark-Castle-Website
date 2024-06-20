@@ -29,13 +29,6 @@ const Footer = () => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://github.com/scottgriv/Dark-Castle-Website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-solid fa-code-fork"></i>
-            </a>
-            <a
               href="https://github.com/scottgriv/Dark-Castle-Theme"
               target="_blank"
               rel="noreferrer"
@@ -43,11 +36,11 @@ const Footer = () => {
               <i className="fa-solid fa-code-branch"></i>
             </a>
             <a
-              href="https://github.com/scottgriv/Dark-Castle-Theme"
+              href="https://github.com/scottgriv/Dark-Castle-Website"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-star"></i>
+              <i className="fa-solid fa-code-fork"></i>
             </a>
             <a
               href="https://github.com/scottgriv/Dark-Castle-Template"
@@ -69,6 +62,13 @@ const Footer = () => {
               rel="noreferrer"
             >
               <Icon name="VSCode" />
+            </a>
+            <a
+              href="https://www.buymeacoffee.com/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="BMC" />
             </a>
           </div>
         </div>
