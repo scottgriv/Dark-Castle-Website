@@ -80,7 +80,7 @@ const ColorPalette = () => {
               key={color[0]}
               className="color-circle"
               style={{ backgroundColor: color[0] }}
-              title={color[0] + ' ~ '  + color[1]}
+              title={color[0]}
               tabIndex="0" // Make the div focusable
               role="button" // Add button role
               aria-label={`Copy color code ${color[0]} to clipboard`} // Add aria-label for accessibility

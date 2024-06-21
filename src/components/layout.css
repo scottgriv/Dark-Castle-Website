@@ -51,7 +51,7 @@ a {
 /* Customize the horizontal rule */
 hr {
   border: none; /* Remove the default border */
-  border-top: 2px solid #2D449B; /* Set the top border color and thickness */
+  border-top: 2px solid #2d449b; /* Set the top border color and thickness */
   width: 75%; /* Set the desired width */
   margin: 20px auto; /* Center the <hr> element */
 }
@@ -113,18 +113,20 @@ hr {
 
 .social-links a,
 .social-links-footer a {
-  color: #FFFFFF; /* Icon color */
+  color: #ffffff; /* Icon color */
   font-size: 24px; /* Icon size */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
 }
 
 .social-links a:hover,
 .social-links-footer a:hover {
-  color: #4164FF; /* Green color for links hover effect, change as needed */
+  color: #4164ff; /* Green color for links hover effect, change as needed */
   transform: translateY(-5px); /* Moves the button up */
 }
 
-.fa-code-fork, .fa-building, .fa-code-branch {
+.fa-code-fork,
+.fa-building,
+.fa-code-branch {
   font-size: 22px; /* Shrink Fork Icon size */
 }
 
@@ -271,7 +273,7 @@ button:focus {
 
 .subtitle {
   text-align: center;
-  color: #4DBCED; /* Font color */
+  color: #4dbced; /* Font color */
   font-size: 30px;
   font-style: italic;
 }
@@ -457,7 +459,7 @@ button:focus {
 
   .subtitle {
     text-align: center;
-    color: #4DBCED; /* Font color */
+    color: #4dbced; /* Font color */
     font-size: 20px;
     font-style: italic;
   }
@@ -564,7 +566,7 @@ button:focus {
     width: 30px;
     height: 30px;
   }
-  
+
   .title-header-large {
     display: none;
   }
@@ -599,5 +601,3 @@ button:focus {
   }
 }
 */
-
-
