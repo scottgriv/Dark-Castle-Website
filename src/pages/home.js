@@ -100,6 +100,28 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-iTerm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/iterm.png"
+            alt="iTerm 2"
+            className="icon"
+          />
+          <span className="label">iTerm 2</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Warp"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/images/platforms/warp.png" alt="Warp" className="icon" />
+          <span className="label">Warp</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-MySQL-Workbench"
           target="_blank"
           rel="noreferrer"
@@ -149,15 +171,6 @@ export default function Home() {
             className="icon"
           />
           <span className="label">Windows Terminal</span>
-        </a>
-        <a
-          className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-Warp"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="/images/platforms/warp.png" alt="Warp" className="icon" />
-          <span className="label">Warp</span>
         </a>
         <a
           className="platform-card"
