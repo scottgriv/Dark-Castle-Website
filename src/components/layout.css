@@ -300,6 +300,10 @@ button:focus {
   margin-top: 20px;
 }
 
+#platform-github {
+  grid-column: span 3; /* Span across all 3 columns */
+}
+
 .platform-card {
   display: flex;
   flex-direction: column;
@@ -573,6 +577,10 @@ button:focus {
 
   .title-header-small {
     display: block;
+  }
+
+  #platform-github {
+    grid-column: span 1; /* Span across all 3 columns */
   }
 }
 

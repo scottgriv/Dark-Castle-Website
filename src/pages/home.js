@@ -222,6 +222,7 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          id="platform-github"
           href="https://github.com/scottgriv/Dark-Castle-Theme"
           target="_blank"
           rel="noreferrer"
