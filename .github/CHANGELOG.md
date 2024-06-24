@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.1] - 2024-06-23
 
+### Changed
+
 - Add iTerm to platform list.
 
-
 ## [1.1.0] - 2024-06-20
+
+### Changed
 
 - Layout changes for final main release.
 
