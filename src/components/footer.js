@@ -19,7 +19,7 @@ const Footer = () => {
               <i className="fa-regular fa-envelope"></i>
             </a>
             <a href="https://nightowllabs.io" target="_blank" rel="noreferrer">
-              <i className="fa-regular fa-building"></i>
+              <Icon name="NOL" />
             </a>
             <a
               href="https://github.com/scottgriv"
@@ -55,13 +55,6 @@ const Footer = () => {
               rel="noreferrer"
             >
               <i className="fa-solid fa-palette"></i>
-            </a>
-            <a
-              href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon name="VSCode" />
             </a>
             <a
               href="https://www.buymeacoffee.com/scottgriv"
