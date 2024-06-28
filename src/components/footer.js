@@ -11,13 +11,6 @@ const Footer = () => {
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
           <div className="social-links-footer">
-            <a
-              href="mailto:support@nightowllabs.io"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-regular fa-envelope"></i>
-            </a>
             <a href="https://nightowllabs.io" target="_blank" rel="noreferrer">
               <Icon name="NOL" />
             </a>
@@ -62,6 +55,13 @@ const Footer = () => {
               rel="noreferrer"
             >
               <Icon name="BMC" />
+            </a>
+            <a
+              href="mailto:support@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
             </a>
           </div>
         </div>
