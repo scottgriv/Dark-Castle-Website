@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.3] - 2024-06-28
 
-### Added
+### Changed
 
-- Update footer icon order and copyright info.
+- Updated footer icon order.
+- Updated copyright info.
+- Updated banner.
 
 ## [1.1.2] - 2024-06-25
 
