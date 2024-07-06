@@ -56,6 +56,69 @@ hr {
   margin: 20px auto; /* Center the <hr> element */
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text inside the container */
+}
+
+.status-tag {
+  background-color: #292929;
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 1em;
+  margin: 20px auto; /* Centering and vertical spacing */
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  width: fit-content;
+  position: relative; /* Necessary for the pseudo-element */
+  overflow: hidden; /* Hide the overflow of the pseudo-element */
+}
+
+.status-tag p {
+  margin: 0;
+  padding-top: 10px; /* Vertical spacing between paragraphs */
+  text-align: center; /* Center text inside paragraphs */
+  color: #FFFFFF;
+
+}
+
+.status-tag h2 {
+  color: #9354FF;
+  margin: 0;
+  text-align: center; /* Center text inside the container */
+}
+
+.status-tag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start outside to the left */
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg); /* Create the skew effect */
+  transition: all 0.5s ease;
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
 .desktop-logo,
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */

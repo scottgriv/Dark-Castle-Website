@@ -10,7 +10,14 @@ export default function Home() {
         Dark Castle Theme
       </h1>
       <p className="subtitle">One theme to rule them all...</p>
-      <p className="subtitle-2">We've hit <i class="fa-solid fa-download fa-bounce"></i> 1k+ cross-platform installs - Thank you!</p>
+      <div className="home-container">
+        <div className="status-tag">
+          <h2>Thank You!</h2>
+          <p>
+          We've just hit <i class="fa-solid fa-download fa-bounce"></i> 1k+ cross-platform installs!
+          </p>
+        </div>
+      </div>
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
         platforms. Inspired by the timeless beauty and mystery of medieval
