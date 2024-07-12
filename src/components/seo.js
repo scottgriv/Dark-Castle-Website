@@ -27,7 +27,7 @@ function Seo({ description, title, children }) {
 
   return (
     <>
-      <title>Dark Castle | One theme to rule them all.</title>
+      <title>Dark Castle | One theme to rule them all</title>
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

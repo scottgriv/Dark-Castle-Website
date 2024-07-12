@@ -371,7 +371,7 @@ button:focus {
 }
 
 #platform-github {
-  grid-column: span 3; /* Span across all 3 columns */
+  grid-column: span 2; /* Span across all 3 columns */
 }
 
 .platform-card {

@@ -182,6 +182,19 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://t.me/addtheme/wPAMRRVDLaWv0E7Y"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/telegram.png"
+            alt="Telegram (iOS)"
+            className="icon"
+          />
+          <span className="label">Telegram (iOS)</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-SwiftUI"
           target="_blank"
           rel="noreferrer"
