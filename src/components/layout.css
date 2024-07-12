@@ -65,7 +65,7 @@ hr {
 }
 
 .status-tag {
-  background-color: #292929;
+  background-color: #007B88;
   color: #FFFFFF;
   border-radius: 12px;
   padding: 10px;
@@ -89,7 +89,7 @@ hr {
 }
 
 .status-tag h2 {
-  color: #9354FF;
+  color: #FFFFFF;
   margin: 0;
   text-align: center; /* Center text inside the container */
 }
@@ -109,13 +109,13 @@ hr {
 
 @keyframes shimmer {
   0% {
-    left: -100%;
+    left: -150%; /* Start further to the left */
   }
   50% {
-    left: 100%;
+    left: 150%; /* Move past the right end */
   }
   100% {
-    left: 100%;
+    left: 150%; /* Keep it moving */
   }
 }
 
