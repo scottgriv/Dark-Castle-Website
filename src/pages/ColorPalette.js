@@ -16,11 +16,12 @@ const ColorPalette = () => {
   }, [showAlert])
 
   const copyToClipboard = colorCode => {
+    const truncatedColorCode = colorCode.substring(1); // Remove the #
     navigator.clipboard
-      .writeText(colorCode)
+      .writeText(truncatedColorCode)
       .then(() => {
         setAlertMessage(`${colorCode} copied to clipboard`)
-        setAlertColor(colorCode === "#292929" ? "#FFFFFF" : colorCode) // Handle special case for #292929
+        setAlertColor(colorCode === "#292929" ? "#FFFFFF" : `${colorCode}`) // Handle special case for 292929
         setShowAlert(false) // Reset the alert visibility
         setTimeout(() => setShowAlert(true), 0) // Show the alert after reset
       })
@@ -28,7 +29,7 @@ const ColorPalette = () => {
         console.error("Could not copy text: ", err)
       })
   }
-
+  
   const handleKeyPress = (event, colorCode) => {
     if (event.key === "Enter" || event.key === " ") {
       copyToClipboard(colorCode)
