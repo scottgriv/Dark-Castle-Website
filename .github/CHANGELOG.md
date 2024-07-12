@@ -5,17 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.6] - 2024-07-12
-
-### Changed
-
-- Excluded the `#` from the hex code during the color palette copy to clipboard.
-
 ## [1.1.5] - 2024-07-12
 
 ### Added
 
 - Telegram theme platform.
+
+### Changed
+
+- Excluded the `#` from the hex code during the color palette copy to clipboard.
 
 ## [1.1.4] - 2024-07-05
 
@@ -108,7 +106,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Official release of **Dark Castle Website**.
 
-[1.1.6]: https://github.com/scottgriv/Dark-Castle-Website/compare/v1.1.5...v1.1.6
 [1.1.5]: https://github.com/scottgriv/Dark-Castle-Website/compare/v1.1.4...v1.1.5
 [1.1.4]: https://github.com/scottgriv/Dark-Castle-Website/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/scottgriv/Dark-Castle-Website/compare/v1.1.2...v1.1.3
