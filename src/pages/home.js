@@ -6,18 +6,29 @@ export default function Home() {
   return (
     <Layout>
       <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
-      <h1 className="title-header-small">
-        Dark Castle Theme
-      </h1>
+      <h1 className="title-header-small">Dark Castle Theme</h1>
       <p className="subtitle">One theme to rule them all...</p>
-      <div className="home-container">
-        <div className="status-tag">
-          <h2>Thank You!</h2>
-          <p>
-          We've just hit <i class="fa-solid fa-download fa-bounce"></i> 1k+ cross-platform installs!
-          </p>
+      <div className="bulletin-board-container">
+        <div className="bulletin-board">
+          <h2>
+            <i class="fa-solid fa-thumbtack thumbtack-icon"></i>
+            Town Bulletin Board
+          </h2>
+          <ul>
+            <p>07/12/2024</p>
+
+            <li>Check out our newest theme for Telegram iOS below!</li>
+            <p>07/01/2024</p>
+
+            <li>
+              We've just hit <i class="fa-solid fa-download fa-bounce"></i> 1k+
+              cross-platform installs!
+            </li>
+            <li>Thank you for your support!</li>
+          </ul>
         </div>
       </div>
+
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
         platforms. Inspired by the timeless beauty and mystery of medieval

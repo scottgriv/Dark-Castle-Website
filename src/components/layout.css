@@ -56,7 +56,7 @@ hr {
   margin: 20px auto; /* Center the <hr> element */
 }
 
-.home-container {
+.bulletin-board-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,37 +64,55 @@ hr {
   text-align: center; /* Center text inside the container */
 }
 
-.status-tag {
+.bulletin-board {
+  max-width: 400px; /* Maximum width for the content */
   background-color: #007B88;
   color: #FFFFFF;
   border-radius: 12px;
   padding: 10px;
   font-size: 1em;
   margin: 20px auto; /* Centering and vertical spacing */
-  display: flex; /* Use flexbox for centering content */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center elements horizontally */
-  justify-content: center; /* Center elements vertically */
+  position: relative; /* Necessary for positioning the thumbtack icon */
   width: fit-content;
-  position: relative; /* Necessary for the pseudo-element */
   overflow: hidden; /* Hide the overflow of the pseudo-element */
 }
 
-.status-tag p {
-  margin: 0;
-  padding-top: 10px; /* Vertical spacing between paragraphs */
-  text-align: center; /* Center text inside paragraphs */
-  color: #FFFFFF;
-
+.thumbtack-icon {
+  color: #AA1B86;
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  left: 4px; /* Adjust as needed */
+  transform: rotate(-45deg); /* Adjust the rotation if needed */
 }
 
-.status-tag h2 {
+.bulletin-board ul {
+  padding-left: 20px; /* Adjust as needed to control the bullet points' indentation */
+  margin: 0;
+}
+
+.bulletin-board ul li {
+  margin: 5px 0; /* Adjust the vertical margin */
+  text-align: left;
   color: #FFFFFF;
+}
+
+.bulletin-board p {
+  margin: 0;
+  padding-top: 15px; /* Vertical spacing between paragraphs */
+  padding-bottom: 5px; /* Vertical spacing between paragraphs */
+  text-align: left; /* Center text inside paragraphs */
+  color: #D3D3D3;
+}
+
+.bulletin-board h2 {
+  padding: 5px; /* Vertical spacing between paragraphs */
+  color: #000000;
   margin: 0;
   text-align: center; /* Center text inside the container */
+  position: relative; /* To allow the thumbtack icon to be positioned absolutely within h2 */
 }
 
-.status-tag::before {
+.bulletin-board::before {
   content: '';
   position: absolute;
   top: 0;
@@ -118,6 +136,7 @@ hr {
     left: 150%; /* Keep it moving */
   }
 }
+
 
 .desktop-logo,
 .mobile-logo {
