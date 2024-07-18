@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Town Bulletin Board Section
+- Town Bulletin Board Section.
 
 ## [1.1.5] - 2024-07-12
 

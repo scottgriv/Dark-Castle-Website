@@ -10,21 +10,22 @@ export default function Home() {
       <p className="subtitle">One theme to rule them all...</p>
       <div className="bulletin-board-container">
         <div className="bulletin-board">
-          <h2>
+          <h3>
             <i class="fa-solid fa-thumbtack thumbtack-icon"></i>
             Town Bulletin Board
-          </h2>
+          </h3>
           <ul>
             <p>07/12/2024</p>
-
             <li>Check out our newest theme for Telegram iOS below!</li>
             <p>07/01/2024</p>
-
             <li>
               We've just hit <i class="fa-solid fa-download fa-bounce"></i> 1k+
               cross-platform installs!
             </li>
             <li>Thank you for your support!</li>
+            <p>06/07/2024</p>
+            <li>Dark Castle is fully built.</li>
+            <li>Down with the scaffolding!</li>
           </ul>
         </div>
       </div>
