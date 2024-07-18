@@ -52,8 +52,8 @@ a {
 hr {
   border: none; /* Remove the default border */
   border-top: 2px solid #2d449b; /* Set the top border color and thickness */
-  width: 75%; /* Set the desired width */
-  margin: 20px auto; /* Center the <hr> element */
+  width: 67%; /* Set the desired width */
+  margin-bottom: 20px auto; /* Center the <hr> element */
 }
 
 .bulletin-board-container {
@@ -82,7 +82,7 @@ hr {
   position: absolute;
   top: 0px; /* Adjust as needed */
   left: 4px; /* Adjust as needed */
-  transform: rotate(-45deg); /* Adjust the rotation if needed */
+  transform: rotate(45deg); /* Adjust the rotation if needed */
 }
 
 .bulletin-board ul {
@@ -562,6 +562,10 @@ button:focus {
     color: #4dbced; /* Font color */
     font-size: 20px;
     font-style: italic;
+  }
+
+  hr {
+    width: 96%; /* Set the desired width */
   }
 
   .platform-grid {
