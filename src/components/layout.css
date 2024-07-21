@@ -137,6 +137,17 @@ hr {
   }
 }
 
+.support-logo {
+  /*
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+  width: 217px;
+}
 
 .desktop-logo,
 .mobile-logo {

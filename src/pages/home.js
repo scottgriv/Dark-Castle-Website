@@ -273,7 +273,7 @@ export default function Home() {
       <div>
         <ColorPalette />
       </div>
-      <h2 className="platform-wrapper">Contributing</h2>
+      <h2 className="platform-wrapper">Become a Contributor</h2>
       <p>
         If your favorite platform isn't listed here, we invite you to join in
         our theme conquest by{" "}
@@ -288,6 +288,26 @@ export default function Home() {
         to the Dark Castle Theme. We're just getting started, and there's a wide
         range of platforms still to be covered. Your contributions are
         invaluable in helping us expand and improve this theme for everyone!
+      </p>
+      <h2 className="platform-wrapper">Become a Supporter</h2>
+      <p>
+        Every contribution helps us continue to develop and maintain the future
+        of Dark Castle, including new Castle based themes! If you'd like to
+        support future Castle building, please consider donating, thank you!
+      </p>
+      <p align="center">
+        <a
+          className="regular-link"
+          href="https://www.buymeacoffee.com/scottgriv"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+            className="support-logo"
+          />
+        </a>
       </p>
     </Layout>
   )
