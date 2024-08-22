@@ -243,6 +243,25 @@ hr {
   color: #4164ff;
 }
 
+.regular-link-2 {
+  color: #ff8040;
+}
+
+/* This is to ensure that hover links retain the intended style */
+.regular-link-2:hover {
+  color: #2D449B;
+}
+
+/* This is to ensure that visited links retain the intended style */
+.regular-link-2:visited {
+  color: #ff8040;
+}
+
+/* Specific rule for visited links when hovered */
+.regular-link-2:visited:hover {
+  color: #2D449B;
+}
+
 @keyframes bounce {
   0% {
     transform: scale(1, 1) translateY(0);
@@ -543,6 +562,96 @@ button:focus {
 .custom-alert span {
   cursor: pointer; /* Make the text cursor a pointer */
 }
+
+/* archive.css */
+
+.archive-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.archive-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 999;
+}
+
+.archive-content {
+  background: #1A1A1A; /* Black background */
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80%;
+  overflow-y: auto; /* Ensure only the popup is scrollable */
+  z-index: 1001;
+  position: relative;
+  color: #ffd580; /* Text color */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #EF6B73;
+  cursor: pointer;
+}
+
+.archive-list {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.archive-date {
+  color: #bae67e; /* Date color */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.archive-list li {
+  margin-bottom: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF8040; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+  border: 3px solid #333; /* Padding around scrollbar thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #FF8040 #333; /* Thumb and track colors */
+}
+
+/* For Internet Explorer and Edge */
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
 
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
