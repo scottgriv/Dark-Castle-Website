@@ -44,10 +44,9 @@ function Seo({ description, title, children }) {
       <meta name="twitter:image" content="/images/main/banner_social.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#FF8040" />
-      <meta key="apple-mobile-web-app-capable" name="apple-mobile-web-app-capable" content="yes" />,
-      <meta key="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="black-translucent" />,
-      <meta key="theme-color" name="theme-color" content="#000000" />,
-    ]);
+      <meta key="apple-mobile-web-app-capable" name="apple-mobile-web-app-capable" content="yes" />
+      <meta key="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta key="theme-color" name="theme-color" content="#000000" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
