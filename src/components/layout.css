@@ -71,7 +71,7 @@ hr {
   border-radius: 12px;
   padding: 10px;
   font-size: 1em;
-  margin: 20px auto; /* Centering and vertical spacing */
+  /* margin: 20px auto; */
   position: relative; /* Necessary for positioning the thumbtack icon */
   width: fit-content;
   overflow: hidden; /* Hide the overflow of the pseudo-element */

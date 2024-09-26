@@ -34,31 +34,7 @@ export default function Home() {
       <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
       <h1 className="title-header-small">Dark Castle Theme</h1>
       <p className="subtitle">One theme to rule them all...</p>
-      <div className="bulletin-board-container">
-        <div className="bulletin-board">
-          <h3>
-            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
-            Village Bulletin Board
-          </h3>
-          <ul>
-            <p>08/22/2024</p>
-            <li>
-              We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
-              2K+ cross-platform installs!
-            </li>
-            <li>Thanks again for your support!</li>
-            <p>07/12/2024</p>
-            <li>Check out our newest theme for Telegram iOS below!</li>
-          </ul>
-          <a href="#" onClick={openArchive} className="regular-link-2">
-            View Castle Archives
-          </a>
-        </div>
-      </div>
 
-      {showArchive && <Archive onClose={closeArchive} />}
-
-      <h2 className="platform-wrapper">About</h2>
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
         platforms. Inspired by the timeless beauty and mystery of medieval
@@ -301,6 +277,30 @@ export default function Home() {
       <div>
         <ColorPalette />
       </div>
+      <h2 className="platform-wrapper">What's New?</h2>
+      <div className="bulletin-board-container">
+        <div className="bulletin-board">
+          <h3>
+            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+            Village Bulletin Board
+          </h3>
+          <ul>
+            <p>08/22/2024</p>
+            <li>
+              We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
+              2K+ cross-platform installs!
+            </li>
+            <li>Thanks again for your support!</li>
+            <p>07/12/2024</p>
+            <li>Check out our newest theme for Telegram iOS below!</li>
+          </ul>
+          <a href="#" onClick={openArchive} className="regular-link-2">
+            View Castle Archives
+          </a>
+        </div>
+      </div>
+
+      {showArchive && <Archive onClose={closeArchive} />}
       <h2 className="platform-wrapper">Become a Contributor</h2>
       <p>
         If your favorite platform isn't listed here, we invite you to join in
