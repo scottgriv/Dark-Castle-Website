@@ -292,7 +292,7 @@ export default function Home() {
             </li>
             <li>Thanks again for your support!</li>
             <p>07/12/2024</p>
-            <li>Check out our newest theme for Telegram iOS below!</li>
+            <li>Check out our newest theme for Telegram iOS above!</li>
           </ul>
           <a href="#" onClick={openArchive} className="regular-link-2">
             View Castle Archives
