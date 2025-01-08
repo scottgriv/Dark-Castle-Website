@@ -290,7 +290,7 @@ export default function Home() {
       <div>
         <ColorPalette />
       </div>
-      <h2 className="platform-wrapper">What's New?</h2>
+      <h2 className="platform-wrapper">What's New</h2>
       <div className="bulletin-board-container">
         <div className="bulletin-board">
           <h3>
@@ -307,7 +307,7 @@ export default function Home() {
             <li>Thanks again for your support!</li>
           </ul>
           <a href="#" onClick={openArchive} className="regular-link-2">
-            View Castle Archives
+            View the Castle Archives
           </a>
         </div>
       </div>
