@@ -20,6 +20,14 @@ export default function Archive({ onClose }) {
         <h2 className="platform-wrapper">Castle Archives</h2>
         <div className="archive-list">
           <ul>
+            <p className="archive-date">08/22/2024</p>
+            <li>
+              We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
+              2K+ cross-platform installs!
+            </li>
+            <li>Thanks again for your support!</li>
+            <p className="archive-date">07/12/2024</p>
+            <li>Check out our newest theme for Telegram iOS above!</li>
             <p className="archive-date">07/01/2024</p>
             <li>
               We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}

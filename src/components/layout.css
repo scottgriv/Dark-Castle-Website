@@ -419,9 +419,10 @@ button:focus {
   margin-top: 20px;
 }
 
-#platform-github {
-  grid-column: span 2; /* Span across all 3 columns */
-}
+/* Span across all 3 columns */
+/* #platform-github {
+  grid-column: span 2;
+} */
 
 .platform-card {
   display: flex;

@@ -212,6 +212,19 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Calibre"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/calibre.png"
+            alt="Calibre"
+            className="icon"
+          />
+          <span className="label">Calibre</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-SwiftUI"
           target="_blank"
           rel="noreferrer"
@@ -286,13 +299,12 @@ export default function Home() {
           </h3>
           <ul>
             <p>08/22/2024</p>
+            <li>Check out our newest theme for Calibre above!</li>
             <li>
               We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
-              2K+ cross-platform installs!
+              3K+ cross-platform installs!
             </li>
             <li>Thanks again for your support!</li>
-            <p>07/12/2024</p>
-            <li>Check out our newest theme for Telegram iOS above!</li>
           </ul>
           <a href="#" onClick={openArchive} className="regular-link-2">
             View Castle Archives
