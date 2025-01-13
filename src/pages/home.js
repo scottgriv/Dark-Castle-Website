@@ -2,57 +2,10 @@ import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
 import Archive from "./archive"
 import ColorPalette from "./ColorPalette"
-import cheerio from 'cheerio';
-
-async function fetchInstallationCounts() {
-  const sublimeUrl = 'https://packagecontrol.io/packages/Dark%20Castle%20Color%20Scheme';
-  const vscodeUrl = 'https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle';
-
-  try {
-    const [sublimeResponse, vscodeResponse] = await Promise.all([
-      fetch(sublimeUrl),
-      fetch(vscodeUrl),
-    ]);
-
-    const [sublimeHtml, vscodeHtml] = await Promise.all([
-      sublimeResponse.text(),
-      vscodeResponse.text(),
-    ]);
-
-    console.log('Fetched Sublime HTML:', sublimeHtml.slice(0, 500)); // Check the HTML
-    console.log('Fetched VSCode HTML:', vscodeHtml.slice(0, 500)); // Check the HTML
-
-    const $sublime = cheerio.load(sublimeHtml);
-    const sublimeMetrics = $sublime('div.package-metrics > p').first().text();
-    console.log('Parsed Sublime Metrics:', sublimeMetrics);
-
-    const sublimeCount = sublimeMetrics
-      ? parseInt(sublimeMetrics.replace(/\D/g, ''), 10)
-      : null;
-
-    const $vscode = cheerio.load(vscodeHtml);
-    const vscodeMetrics = $vscode('.installs-text').first().text();
-    console.log('Parsed VSCode Metrics:', vscodeMetrics);
-
-    const vscodeCount = vscodeMetrics
-      ? parseInt(vscodeMetrics.replace(/\D/g, ''), 10)
-      : null;
-
-    console.log('Sublime Count:', sublimeCount);
-    console.log('VSCode Count:', vscodeCount);
-
-    return { sublimeCount, vscodeCount };
-  } catch (error) {
-    console.error('Error fetching installation counts:', error);
-    return { sublimeCount: null, vscodeCount: null };
-  }
-}
 
 export default function Home() {
   const [showArchive, setShowArchive] = useState(false)
   const [scrollPosition, setScrollPosition] = useState(0)
-  const [sublimeCount, setSublimeCount] = useState(null);
-  const [vscodeCount, setVscodeCount] = useState(null);
 
   const openArchive = () => {
     setScrollPosition(window.scrollY) // Store the current scroll position
@@ -75,15 +28,6 @@ export default function Home() {
       window.scrollTo(0, scrollPosition)
     }
   }, [showArchive, scrollPosition])
-
-  useEffect(() => {
-    async function fetchCounts() {
-      const { sublimeCount, vscodeCount } = await fetchInstallationCounts();
-      setSublimeCount(sublimeCount);
-      setVscodeCount(vscodeCount);
-    }
-    fetchCounts();
-  }, []);
 
   return (
     <Layout>
@@ -129,9 +73,7 @@ export default function Home() {
             alt="VSCode"
             className="icon"
           />
-          <span className="label">
-          Visual Studio Code {vscodeCount !== null ? `(${vscodeCount} installs)` : "(Loading...)"}
-          </span>
+          <span className="label">Visual Studio Code</span>
         </a>
         <a
           className="platform-card"
@@ -157,7 +99,7 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-Obsidian"
+          href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Castle"
           target="_blank"
           rel="noreferrer"
         >
@@ -179,9 +121,7 @@ export default function Home() {
             alt="Sublime"
             className="icon"
           />
-          <span className="label">
-          Sublime {sublimeCount !== null ? `(${sublimeCount} downloads)` : "(Loading...)"}
-          </span>
+          <span className="label">Sublime</span>
         </a>
         <a
           className="platform-card"

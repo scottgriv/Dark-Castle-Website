@@ -63,6 +63,13 @@ const Footer = () => {
             >
               <i className="fa-regular fa-envelope"></i>
             </a>
+            <a
+              href="https://vscodethemes.com/e/scottgriv.Dark-Castle/dark-castle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="VSCode" />
+            </a>
           </div>
         </div>
         <div
