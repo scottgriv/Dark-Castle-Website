@@ -19,7 +19,6 @@
 ---
 
 <h1 align="center">🏰 Dark Castle Theme Website 🌲</h1>
-<h3 align="center">One theme to rule them all...</h3>
 <br>
 <p align="center">
     <a href="https://app.netlify.com/sites/darkcastle/deploys"><img src="https://api.netlify.com/api/v1/badges/d9e331fd-4e1c-4a1a-8279-992b48b89705/deploy-status" alt="Netlify Status" /></a>

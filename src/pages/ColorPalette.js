@@ -61,11 +61,7 @@ const ColorPalette = () => {
 
   return (
     <div className="color-palette-wrapper">
-      <h2>Color Palette</h2>
-      <p>
-        Hover over or tap the color to view the HEX. <br />
-        Double click or tap to copy it to your clipboard.
-      </p>
+      <h2 className="platform-wrapper">Color Palette</h2>
       {alertMessage && (
         <div
           className={`custom-alert ${showAlert ? "show" : ""}`}

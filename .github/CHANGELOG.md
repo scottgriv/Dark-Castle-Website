@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-01-15
+
+### Changed
+
+- Body font and multiple layout changes.
+
 ## [1.1.10] - 2025-01-07
 
 ### Added
@@ -141,6 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Official release of **Dark Castle Website**.
 
+[1.2.0]: https://github.com/scottgriv/Dark-Castle-Website/compare/1.1.10...1.2.0 
 [1.1.10]: https://github.com/scottgriv/Dark-Castle-Website/compare/1.1.9...1.1.10
 [1.1.9]: https://github.com/scottgriv/Dark-Castle-Website/compare/1.1.8...1.1.9
 [1.1.8]: https://github.com/scottgriv/Dark-Castle-Website/compare/1.1.7...1.1.8

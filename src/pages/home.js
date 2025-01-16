@@ -31,17 +31,22 @@ export default function Home() {
 
   return (
     <Layout>
-      <h1 className="title-header-large">🏰 Dark Castle Theme 🌲</h1>
-      <h1 className="title-header-small">Dark Castle Theme</h1>
-      <p className="subtitle">One theme to rule them all...</p>
+      <h1 className="title-header-large">🏰 Dark Castle 🌲</h1>
+      <h1 className="title-header-small">🏰 Dark Castle 🌲</h1>
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
-        platforms. Inspired by the timeless beauty and mystery of medieval
-        castles, this theme combines rich, deep colors with a clean and modern
-        design.
+        platforms, including VSCode, Sublime, Obsidian, and more, designed to
+        provide a consistent and visually appealing coding experience. Inspired
+        by the timeless beauty and mystery of medieval castles, this theme
+        combines rich, deep colors with a clean and modern design.
       </p>
       <div className="screenshot-container">
+      {/* <object
+        type="image/svg+xml"
+        data="/images/samples/screenshot_2.svg"
+        className="screenshot2"
+        ></object> */}
         <a
           href="https://github.com/scottgriv/Dark-Castle-Theme/"
           target="_blank"
@@ -56,11 +61,6 @@ export default function Home() {
       </div>
 
       <h2 className="platform-wrapper">Platforms</h2>
-      <p>
-        Dark Castle is available for a variety of platforms to ensure you can
-        enjoy a consistent and visually appealing coding experience no matter
-        where you work.
-      </p>
       <div className="platform-grid">
         <a
           className="platform-card"
@@ -290,7 +290,32 @@ export default function Home() {
       <div>
         <ColorPalette />
       </div>
-      <h2 className="platform-wrapper">What's New</h2>
+      <h2 className="platform-wrapper">About</h2>
+      <div className="bulletin-board-wrapper">
+      <div className="bulletin-board-container">
+        <div className="bulletin-board">
+          <h3>
+            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+            Contributing to the Castle
+          </h3>
+          <div className="bulletin-board-content">
+
+          <p>
+        If your favorite platform isn't listed here, we invite you to join in
+        our theme conquest by{" "}
+        <a
+          className="regular-link"
+          href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#contributing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contributing
+        </a>. Your contributions are
+        invaluable in helping us expand and improve this theme for everyone!
+      </p>
+      </div>
+        </div>
+      </div>
       <div className="bulletin-board-container">
         <div className="bulletin-board">
           <h3>
@@ -298,7 +323,7 @@ export default function Home() {
             Village Bulletin Board
           </h3>
           <ul>
-            <p>08/22/2024</p>
+            <p class="bulletin-board-date">08/22/2024</p>
             <li>Check out our newest theme for Calibre above!</li>
             <li>
               We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
@@ -311,44 +336,23 @@ export default function Home() {
           </a>
         </div>
       </div>
-
-      {showArchive && <Archive onClose={closeArchive} />}
-      <h2 className="platform-wrapper">Become a Contributor</h2>
-      <p>
-        If your favorite platform isn't listed here, we invite you to join in
-        our theme conquest by{" "}
-        <a
-          className="regular-link"
-          href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#contributing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Contributing
-        </a>{" "}
-        to the Dark Castle Theme. We're just getting started, and there's a wide
-        range of platforms still to be covered. Your contributions are
-        invaluable in helping us expand and improve this theme for everyone!
-      </p>
-      <h2 className="platform-wrapper">Become a Supporter</h2>
-      <p>
+      <div className="bulletin-board-container">
+        <div className="bulletin-board">
+          <h3>
+            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+            Support the Castle
+          </h3>
+          <div className="bulletin-board-content">
+          <p>
         Every contribution helps us continue to develop and maintain the future
         of Dark Castle, including new Castle based themes! If you'd like to
-        support future Castle building, please consider donating, thank you!
+        support future Castle building, please consider donating using one of my links below, thank you!
       </p>
-      <p align="center">
-        <a
-          className="regular-link"
-          href="https://www.buymeacoffee.com/scottgriv"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-            alt="Buy Me A Coffee"
-            className="support-logo"
-          />
-        </a>
-      </p>
+      </div>
+        </div>
+      </div>
+      </div>
+      {showArchive && <Archive onClose={closeArchive} />}
     </Layout>
   )
 }
