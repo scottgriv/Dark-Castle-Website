@@ -82,17 +82,13 @@ hr {
   border-radius: 12px;
   padding: 10px;
   font-size: 1em;
-  /* margin: 20px auto; */
   position: relative; /* Necessary for positioning the thumbtack icon */
-  width: fit-content;
-  overflow: hidden; /* Hide the overflow of the pseudo-element */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
   height: 300px; /* Set a fixed height */
   width: 350px; /* Set a fixed height */
   overflow: hidden; /* Hides content that overflows the fixed height */
-  /* Optional: Use overflow-y: scroll; if you want to make it scrollable */
   overflow-y: auto; /* Enables vertical scrolling for overflowing content */
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2); /* Adds a subtle dark shadow */
+  
 }
 
 .thumbtack-icon {
@@ -191,7 +187,8 @@ padding: 10px;
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  
 }
 
 #pagefoot {
@@ -545,7 +542,7 @@ button:focus {
 .screenshot {
   max-width: 99%; /* Adjusts the width to overflow on both sides */
   height: auto;
-  box-shadow: 8px 8px 15px #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   border-radius: 8px; /* Optional: adds rounded corners */
   margin-top: 20px;
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for transform and shadow */
@@ -691,7 +688,7 @@ body {
 .bulletin-board-wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Adds spacing between items */
+  gap: 5px; /* Adds spacing between items */
   margin: 0 20px; /* 20px margin on the left and right */
   flex-wrap: wrap; /* Allows wrapping to a new line on smaller screens */
 }
@@ -699,6 +696,12 @@ body {
 .bulletin-board-container {
   flex: 1 1 calc(33.333% - 40px); /* 3 columns with 20px margin on both sides */
   box-sizing: border-box; /* Includes padding and border in width/height calculations */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for transform and shadow */
+  
+}
+
+.bulletin-board-container:hover {
+  transform: translateY(-5px); /* Slightly raise on hover */
 }
 
 /* Media Queries */
