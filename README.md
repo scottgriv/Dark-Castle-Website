@@ -28,7 +28,7 @@
 </p>
 
 <div align="center">
-    <img src="./screenshot.png" />
+    <img src="./docs/images/screenshot.png" />
 </div>
 
 This is official website for **[Dark Castle Theme](https://github.com/scottgriv/Dark-Castle-Theme)**.
