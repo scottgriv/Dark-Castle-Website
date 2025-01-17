@@ -340,7 +340,7 @@ export default function Home() {
         <div className="bulletin-board">
           <h3>
             <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
-            Support the Castle
+            Supporting the Castle
           </h3>
           <div className="bulletin-board-content">
           <p>
