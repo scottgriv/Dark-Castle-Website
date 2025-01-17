@@ -36,13 +36,18 @@ export default function Home() {
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
-        platforms, including VSCode, Sublime, Obsidian, and more, designed to
-        provide a consistent and visually appealing coding experience. Inspired
-        by the timeless beauty and mystery of medieval castles, this theme
-        combines rich, deep colors with a clean and modern design.
+        platforms, including VSCode, Notepad++, Xcode, Sublime, Obsidian, and
+        more, designed to provide a consistent and visually appealing coding
+        experience.
+        <br />
+        <br />
+        Inspired by the timeless beauty and mystery of medieval castles, this
+        theme combines rich, deep colors with a clean and modern design. It's
+        perfect for developers who prefer a dark environment that reduces eye
+        strain and enhances code readability.
       </p>
       <div className="screenshot-container">
-      {/* <object
+        {/* <object
         type="image/svg+xml"
         data="/images/samples/screenshot_2.svg"
         className="screenshot2"
@@ -290,67 +295,88 @@ export default function Home() {
       <div>
         <ColorPalette />
       </div>
-      <h2 className="platform-wrapper">About</h2>
+      <h2 className="platform-wrapper">Castle Bulletin Boards</h2>
       <div className="bulletin-board-wrapper">
-      <div className="bulletin-board-container">
-        <div className="bulletin-board">
-          <h3>
-            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
-            Contributing to the Castle
-          </h3>
-          <div className="bulletin-board-content">
-
-          <p>
-        If your favorite platform isn't listed here, we invite you to join in
-        our theme conquest by{" "}
-        <a
-          className="regular-link"
-          href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#contributing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Contributing
-        </a>. Your contributions are
-        invaluable in helping us expand and improve this theme for everyone!
-      </p>
-      </div>
+        <div className="bulletin-board-container">
+          <div className="bulletin-board">
+            <h3>
+              <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+              Contributing to the Castle
+            </h3>
+            <div className="bulletin-board-content">
+              <p>
+                If your favorite platform isn't listed here, we invite you to
+                join in our theme conquest by{" "}
+                <a
+                  className="regular-link"
+                  href="https://github.com/scottgriv/Dark-Castle-Theme?tab=readme-ov-file#contributing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Contributing
+                </a>
+                . Your contributions are invaluable in helping us expand and
+                improve this theme for everyone!
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="bulletin-board-container">
-        <div className="bulletin-board">
-          <h3>
-            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
-            Village Bulletin Board
-          </h3>
-          <ul>
-            <p class="bulletin-board-date">08/22/2024</p>
-            <li>Check out our newest theme for Calibre above!</li>
-            <li>
-              We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}
-              3K+ cross-platform installs!
-            </li>
-            <li>Thanks again for your support!</li>
-          </ul>
-          <a href="#" onClick={openArchive} className="regular-link-2">
-            View the Castle Archives
-          </a>
+        <div className="bulletin-board-container">
+          <div className="bulletin-board">
+            <h3>
+              <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+              Castle News
+            </h3>
+            <ul>
+              <p class="bulletin-board-date">01/07/2025</p>
+              <li>Check out our newest theme for Calibre above!</li>
+              <li>
+                We've just hit{" "}
+                <i className="fa-solid fa-download fa-bounce"></i> 3K+
+                cross-platform installs!
+              </li>
+              <li>Thanks again for your support!</li>
+            </ul>
+            <br />
+            <a href="#" onClick={openArchive} className="regular-link-2">
+              View the Castle Archives
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="bulletin-board-container">
-        <div className="bulletin-board">
-          <h3>
-            <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
-            Supporting the Castle
-          </h3>
-          <div className="bulletin-board-content">
-          <p>
-        Every contribution helps us continue to develop and maintain the future
-        of Dark Castle, including new Castle based themes! If you'd like to
-        support future Castle building, please consider donating using one of my links below, thank you!
-      </p>
-      </div>
+        <div className="bulletin-board-container">
+          <div className="bulletin-board">
+            <h3>
+              <i className="fa-solid fa-thumbtack thumbtack-icon"></i>
+              Supporting the Castle
+            </h3>
+            <div className="bulletin-board-content">
+              <p>
+                If you'd like to support future Castle building, please consider
+                donating through{" "}
+                <a
+                  className="regular-link"
+                  href="https://www.buymeacoffee.com/scottgriv"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Buy Me a Coffee
+                </a>{" "}
+                or{" "}
+                <a
+                  className="regular-link"
+                  href="https://github.com/sponsors/scottgriv"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Sponsors
+                </a>
+                . Every contribution helps us continue to develop and maintain
+                the future of Dark Castle, including new Castle based themes!
+                Thank you!
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
       {showArchive && <Archive onClose={closeArchive} />}
     </Layout>

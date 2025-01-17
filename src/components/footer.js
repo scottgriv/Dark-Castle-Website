@@ -1,6 +1,6 @@
 import React from "react"
 import { CONFIG } from "./config.js"
-import Icon from "../components/icons/icon.js";
+import Icon from "../components/icons/icon.js"
 
 const Footer = () => {
   const showFooter = CONFIG.showFooter
@@ -15,6 +15,20 @@ const Footer = () => {
               <Icon name="NOL" />
             </a>
             <a
+              href="https://github.com/scottgriv/Dark-Castle-Theme"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/scottgriv/Dark-Castle-Website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-solid fa-code-fork"></i>
+            </a>
+            {/* <a
               href="https://github.com/scottgriv"
               target="_blank"
               rel="noreferrer"
@@ -55,6 +69,13 @@ const Footer = () => {
               rel="noreferrer"
             >
               <Icon name="BMC" />
+            </a> */}
+            <a
+              href="https://vscodethemes.com/e/scottgriv.Dark-Castle/dark-castle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="VSCode" />
             </a>
             <a
               href="mailto:support@nightowllabs.io"
@@ -63,13 +84,6 @@ const Footer = () => {
             >
               <i className="fa-regular fa-envelope"></i>
             </a>
-            <a
-              href="https://vscodethemes.com/e/scottgriv.Dark-Castle/dark-castle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon name="VSCode" />
-            </a>
           </div>
         </div>
         <div
@@ -77,7 +91,7 @@ const Footer = () => {
             display: "flex",
             justifyContent: "center", // Center horizontally
             alignItems: "center", // Center vertically
-            padding: '10px',
+            padding: "10px",
           }}
         >
           <div
@@ -96,43 +110,42 @@ const Footer = () => {
                 height: "100%",
                 width: "100%",
               }}
-              
             />
           </div>
           <div
-          style={{
-            display: "flex",
-            justifyContent: "center", // Center horizontally
-            alignItems: "center", // Center vertically
-            padding: '10px',
-          }}
-        >
-          <div
             style={{
-              height: "32px",
-              width: "114px",
-              overflow: "hidden",
-              borderRadius: "6px",
+              display: "flex",
+              justifyContent: "center", // Center horizontally
+              alignItems: "center", // Center vertically
+              padding: "10px",
             }}
           >
-        <a
-          className="regular-link"
-          href="https://www.buymeacoffee.com/scottgriv"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png"
-            alt="Buy Me A Coffee"
-            className="support-logo"
-          />
-        </a>
+            <div
+              style={{
+                height: "32px",
+                width: "114px",
+                overflow: "hidden",
+                borderRadius: "6px",
+              }}
+            >
+              <a
+                className="regular-link"
+                href="https://www.buymeacoffee.com/scottgriv"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png"
+                  alt="Buy Me A Coffee"
+                  className="support-logo"
+                />
+              </a>
+            </div>
           </div>
         </div>
-        </div>
         <div id="pagefoot">
-          Copyright © 2024-{new Date().getFullYear()} Scott Grivner & Night Owl Labs, LLC. - All
-          Rights Reserved.
+          Copyright © 2024-{new Date().getFullYear()} Scott Grivner & Night Owl
+          Labs, LLC. - All Rights Reserved.
         </div>
       </div>
     </>
