@@ -36,7 +36,7 @@ export default function Home() {
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
-        platforms, including VSCode, Notepad++, Xcode, Sublime, Obsidian, and
+        platforms, including VSCode, Obsidian, Sublime, Notepad++, Xcode and
         more, designed to provide a consistent and visually appealing coding
         experience.
         <br />
@@ -82,28 +82,6 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-Notepad-Plus-Plus"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="/images/platforms/notepad++.png"
-            alt="Notepad++"
-            className="icon"
-          />
-          <span className="label">Notepad++</span>
-        </a>
-        <a
-          className="platform-card"
-          href="https://github.com/scottgriv/Dark-Castle-Xcode"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="/images/platforms/xcode.png" alt="Xcode" className="icon" />
-          <span className="label">Xcode</span>
-        </a>
-        <a
-          className="platform-card"
           href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Castle"
           target="_blank"
           rel="noreferrer"
@@ -127,6 +105,28 @@ export default function Home() {
             className="icon"
           />
           <span className="label">Sublime</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Notepad-Plus-Plus"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/notepad++.png"
+            alt="Notepad++"
+            className="icon"
+          />
+          <span className="label">Notepad++</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-Xcode"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/images/platforms/xcode.png" alt="Xcode" className="icon" />
+          <span className="label">Xcode</span>
         </a>
         <a
           className="platform-card"
