@@ -55,7 +55,7 @@ This project is released under the terms of the **MIT License**, which permits u
 ---
 
 <div align="center">
-    <a href="https://github.com/scottgriv/Business-Website" target="_blank">
+    <a href="https://github.com/scottgriv/Dark-Castle-Website" target="_blank">
         <img src="./docs/images/icon-rounded.png" width="100" height="100"/>
     </a>
 </div>
