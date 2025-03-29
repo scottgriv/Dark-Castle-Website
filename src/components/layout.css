@@ -659,6 +659,32 @@ button:focus {
   margin-bottom: 10px;
 }
 
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #AA1B86; /* Light background */
+  color: #FFFFFF; /* Dark GitHub-like text color */
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+  border: 1px solid #181717; /* Optional: GitHub border look */
+}
+
+.github-button:hover {
+  background-color: #FFFFFF; /* Dark on hover */
+  color: #000000; /* Light text on hover */
+}
+
+.github-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* optional spacing */
+}
+
 /* For WebKit browsers (Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */

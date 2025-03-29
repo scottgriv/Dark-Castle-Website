@@ -65,6 +65,17 @@ export default function Home() {
         </a>
       </div>
 
+      <div class="github-button-wrapper">
+          <a
+            href="https://github.com/scottgriv/Dark-Castle-Theme"
+            target="_blank"
+            class="github-button"
+          >
+            <i class="fab fa-github"></i>
+            View on GitHub
+          </a>
+        </div>
+
       <h2 className="platform-wrapper">Platforms</h2>
       <div className="platform-grid">
         <a
