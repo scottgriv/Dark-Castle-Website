@@ -20,6 +20,14 @@ export default function Archive({ onClose }) {
         <h2 className="platform-wrapper">Castle Archives</h2>
         <div className="archive-list">
           <ul>
+            <p class="bulletin-board-date">01/07/2025</p>
+            <li>Check out our newest theme for Calibre above!</li>
+            <li>
+              We've just hit{" "}
+              <i className="fa-solid fa-download fa-bounce"></i> 3K+
+              cross-platform installs!
+            </li>
+            <li>Thanks again for your support!</li>
             <p className="archive-date">08/22/2024</p>
             <li>
               We've just hit <i className="fa-solid fa-download fa-bounce"></i>{" "}

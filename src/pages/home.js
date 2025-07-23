@@ -339,11 +339,11 @@ export default function Home() {
               Castle News
             </h3>
             <ul>
-              <p class="bulletin-board-date">01/07/2025</p>
-              <li>Check out our newest theme for Calibre above!</li>
+              <p class="bulletin-board-date">07/22/2025</p>
+              <li>Dark Castle is officially 1 year old!</li>
               <li>
                 We've just hit{" "}
-                <i className="fa-solid fa-download fa-bounce"></i> 3K+
+                <i className="fa-solid fa-download fa-bounce"></i> 4K+
                 cross-platform installs!
               </li>
               <li>Thanks again for your support!</li>
