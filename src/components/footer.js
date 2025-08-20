@@ -11,8 +11,12 @@ const Footer = () => {
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
           <div className="social-links-footer">
-            <a href="https://nightowllabs.io" target="_blank" rel="noreferrer">
-              <Icon name="NOL" />
+            <a
+              href="https://vscodethemes.com/e/scottgriv.Dark-Castle/dark-castle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="VSCode" />
             </a>
             <a
               href="https://github.com/scottgriv/Dark-Castle-Theme"
@@ -70,12 +74,8 @@ const Footer = () => {
             >
               <Icon name="BMC" />
             </a> */}
-            <a
-              href="https://vscodethemes.com/e/scottgriv.Dark-Castle/dark-castle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon name="VSCode" />
+            <a href="https://nightowllabs.io" target="_blank" rel="noreferrer">
+              <Icon name="NOL" />
             </a>
             <a
               href="mailto:support@nightowllabs.io"
