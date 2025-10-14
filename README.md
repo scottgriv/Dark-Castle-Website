@@ -35,8 +35,6 @@ This is official website for **[Dark Castle Theme](https://github.com/scottgriv/
 
 - Visit the website that's built by this repository [here](https://darkcastle.netlify.app).
 - Check out our **Dark Castle Theme** main repository [here](https://github.com/scottgriv/Dark-Castle-Theme).
-- Visit our **Business Website** repository, which this website was based on [here](https://github.com/scottgriv/Business-Website), if you would like to use it to create your own website (See the `README` for instructions).
-- Finally, see our **Business Website** in action [here](https://nightowllabs.io).
 
 ## License
 
