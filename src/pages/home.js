@@ -66,15 +66,15 @@ export default function Home() {
       </div>
 
       <div class="github-button-wrapper">
-          <a
-            href="https://github.com/scottgriv/Dark-Castle-Theme"
-            target="_blank"
-            class="github-button"
-          >
-            <i class="fab fa-github"></i>
-            View on GitHub
-          </a>
-        </div>
+        <a
+          href="https://github.com/scottgriv/Dark-Castle-Theme"
+          target="_blank"
+          class="github-button"
+        >
+          <i class="fab fa-github"></i>
+          View on GitHub
+        </a>
+      </div>
 
       <h2 className="platform-wrapper">Platforms</h2>
       <div className="platform-grid">
@@ -228,6 +228,19 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://github.com/scottgriv/Dark-Castle-IBM-i-Green-Screen"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/ibmi.png"
+            alt="Wallpaper"
+            className="icon"
+          />
+          <span className="label">IBM i Green Screen</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://github.com/scottgriv/Dark-Castle-Calibre"
           target="_blank"
           rel="noreferrer"
@@ -287,7 +300,7 @@ export default function Home() {
           />
           <span className="label">Wallpaper</span>
         </a>
-        <a
+        {/* <a
           className="platform-card"
           id="platform-github"
           href="https://github.com/scottgriv/Dark-Castle-Theme"
@@ -300,7 +313,8 @@ export default function Home() {
             className="icon"
           />
           <span className="label">GitHub Repository</span>
-        </a>
+        </a> */}
+
         {/* Add more platform cards as needed */}
       </div>
       <div>
@@ -339,11 +353,14 @@ export default function Home() {
               Castle News
             </h3>
             <ul>
-              <p class="bulletin-board-date">07/22/2025</p>
-              <li>Dark Castle is officially 1 year old!</li>
+              <p class="bulletin-board-date">10/17/2025</p>
+              <li>
+                We're going mainframe! Check out our newest theme for the IBM i
+                Green Screen (5250 Emulator) above!
+              </li>
               <li>
                 We've just hit{" "}
-                <i className="fa-solid fa-download fa-bounce"></i> 4K+
+                <i className="fa-solid fa-download fa-bounce"></i> 5K+
                 cross-platform installs!
               </li>
               <li>Thanks again for your support!</li>
