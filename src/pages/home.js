@@ -106,6 +106,19 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
+          href="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/google-chrome.png"
+            alt="Google Chrome"
+            className="icon"
+          />
+          <span className="label">Google Chrome</span>
+        </a>
+        <a
+          className="platform-card"
           href="https://packagecontrol.io/packages/Dark%20Castle%20Color%20Scheme"
           target="_blank"
           rel="noreferrer"
@@ -353,14 +366,22 @@ export default function Home() {
               Castle News
             </h3>
             <ul>
-              <p class="bulletin-board-date">10/17/2025</p>
+              <p class="bulletin-board-date">11/18/2025</p>
               <li>
-                We're going mainframe! Check out our newest theme for the IBM i
-                Green Screen (5250 Emulator) above!
+                We're on the Google Chrome store! Check out our newest theme for
+                the{" "}
+                <a
+                  className="regular-link"
+                  href="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Google Chrome
+                </a>{" "}and run your browser <b>with style!</b>
               </li>
               <li>
                 We've just hit{" "}
-                <i className="fa-solid fa-download fa-bounce"></i> 5K+
+                <i className="fa-solid fa-download fa-bounce"></i> 6K+
                 cross-platform installs!
               </li>
               <li>Thanks again for your support!</li>
