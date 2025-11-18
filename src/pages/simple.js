@@ -1,5 +1,7 @@
 import React from "react"
 import Seo from "../components/seo"
+import ColorPalette from "./ColorPalette"
+import "../components/layout.css"
 
 export default function Simple() {
   return (
@@ -15,9 +17,10 @@ export default function Simple() {
           flexDirection: "column",
           alignItems: "center",
           textAlign: "center",
-          paddingTop: "1rem",      // <<< much smaller top padding
-          paddingBottom: "1rem",
+          paddingTop: "0rem",      // <<< much smaller top padding
+          paddingBottom: "0rem",
           margin: 0,
+          padding: 0,
         }}
       >
         {/* Main logo */}
@@ -25,8 +28,8 @@ export default function Simple() {
           src="/images/main/icon_transparent.png"
           alt="Dark Castle Logo"
           style={{
-            width: 360,
-            height: 360,
+            width: 300,
+            height: 300,
             borderRadius: 20,
             marginBottom: "0.2rem",  // <<< tighter spacing
             marginTop: "0rem",
@@ -50,6 +53,9 @@ export default function Simple() {
           Inspired by the timeless beauty and mystery of medieval castles,
           this theme combines rich, deep colors with a clean and modern design.
         </p>
+      </div>
+            <div>
+        <ColorPalette />
       </div>
     </>
   )
