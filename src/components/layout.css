@@ -81,14 +81,17 @@ hr {
   color: #ffd580;
   border-radius: 12px;
   padding: 10px;
+  padding-bottom: 30px;
   font-size: 1em;
   position: relative; /* Necessary for positioning the thumbtack icon */
   height: 300px; /* Set a fixed height */
   width: 350px; /* Set a fixed height */
   overflow: hidden; /* Hides content that overflows the fixed height */
-  overflow-y: auto; /* Enables vertical scrolling for overflowing content */
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2); /* Adds a subtle dark shadow */
-  
+}
+
+.bulletin-board::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 .thumbtack-icon {
@@ -561,7 +564,7 @@ button:focus {
 }
 
 .platform-wrapper {
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   text-align: center;
 }
