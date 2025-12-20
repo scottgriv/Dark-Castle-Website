@@ -106,19 +106,6 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="/images/platforms/google-chrome.png"
-            alt="Google Chrome"
-            className="icon"
-          />
-          <span className="label">Google Chrome</span>
-        </a>
-        <a
-          className="platform-card"
           href="https://packagecontrol.io/packages/Dark%20Castle%20Color%20Scheme"
           target="_blank"
           rel="noreferrer"
@@ -129,6 +116,19 @@ export default function Home() {
             className="icon"
           />
           <span className="label">Sublime</span>
+        </a>
+        <a
+          className="platform-card"
+          href="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/google-chrome.png"
+            alt="Google Chrome"
+            className="icon"
+          />
+          <span className="label">Google Chrome</span>
         </a>
         <a
           className="platform-card"
@@ -377,7 +377,8 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   Google Chrome
-                </a>{" "}and run your browser <b>with style!</b>
+                </a>{" "}
+                and run your browser <b>with style!</b>
               </li>
               <li>
                 We've just hit{" "}
