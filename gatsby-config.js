@@ -12,7 +12,7 @@ module.exports = {
     title: `Dark Castle`,
     description: `🏰 🌲 A vibrantly elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design.`,
     author: `@scottgriv`,
-    siteUrl: `https://darkcastle.netlify.app/`,
+    siteUrl: `https://darkcastletheme.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,

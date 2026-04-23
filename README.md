@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://darkcastle.netlify.app" target="_blank">
+    <a href="https://darkcastletheme.com" target="_blank">
         <img src="./docs/images/banner_large.png" /> <!-- Add a specific width/height for your icon here, ex. width="150" height="150"-->
     </a>
 </div>
@@ -33,7 +33,7 @@
 
 This is official website for **[Dark Castle Theme](https://github.com/scottgriv/Dark-Castle-Theme)**.
 
-- Visit the website that's built by this repository [here](https://darkcastle.netlify.app).
+- Visit the website that's built by this repository [here](https://darkcastletheme.com).
 - Check out our **Dark Castle Theme** main repository [here](https://github.com/scottgriv/Dark-Castle-Theme).
 
 ## License
