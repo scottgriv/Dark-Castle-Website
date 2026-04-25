@@ -368,8 +368,8 @@ export default function Home() {
             <ul>
               <p class="bulletin-board-date">11/18/2025</p>
               <li>
-                We're on the Google Chrome store! Check out our newest theme for
-                the{" "}
+                We're on the Chrome Web Store! Check out our newest theme for
+                {" "}
                 <a
                   className="regular-link"
                   href="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
