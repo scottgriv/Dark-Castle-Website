@@ -19,6 +19,20 @@ const Footer = () => {
               <Icon name="VSCode" />
             </a>
             <a
+              href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Castle"
+              target="_blank"
+              rel="noreferrer"
+            >
+             <i className="fa-brands fa-obsidian"></i>
+            </a>
+            <a
+              href="https://chromewebstore.google.com/detail/dark-castle-theme/iljeoadcgeiojmaaiepfojppdjffkahb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-chrome"></i>
+            </a>
+            <a
               href="https://github.com/scottgriv/Dark-Castle-Theme"
               target="_blank"
               rel="noreferrer"

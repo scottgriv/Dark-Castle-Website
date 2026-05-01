@@ -54,13 +54,21 @@ function Seo({ description, title, children }) {
       <meta name="twitter:image" content="/images/main/banner_social.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#FF8040" />
-      <meta key="apple-mobile-web-app-capable" name="apple-mobile-web-app-capable" content="yes" />
-      <meta key="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta
+        key="apple-mobile-web-app-capable"
+        name="apple-mobile-web-app-capable"
+        content="yes"
+      />
+      <meta
+        key="apple-mobile-web-app-status-bar-style"
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
       <meta key="theme-color" name="theme-color" content="#000000" />
       <meta name="mobile-web-app-capable" content="yes" />
       <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"
       />
 
       {/* Favicon icons */}
@@ -73,9 +81,9 @@ function Seo({ description, title, children }) {
       <link rel="icon" type="image/png" sizes="192x192" href={favicon192} />
       <link rel="icon" type="image/png" sizes="512x512" href={favicon512} />
 
-        {/* App install (not a favicon) */}
+      {/* App install (not a favicon) */}
       <link rel="apple-touch-icon" href={appleIcon} />
-      
+
       {children}
     </Helmet>
   )
