@@ -106,7 +106,7 @@ export default function Home() {
         </a>
         <a
           className="platform-card"
-          href="https://packagecontrol.io/packages/Dark%20Castle%20Color%20Scheme"
+          href="https://packages.sublimetext.io/packages/Dark%20Castle%20Color%20Scheme"
           target="_blank"
           rel="noreferrer"
         >
