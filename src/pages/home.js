@@ -401,7 +401,7 @@ export default function Home() {
             </h3>
             <div className="bulletin-board-content">
               <p>
-                If you'd like to support future Castle building, please consider
+                If you'd like to support future castle building, please consider
                 donating through{" "}
                 <a
                   className="regular-link"
