@@ -91,6 +91,19 @@ export default function Home() {
           />
           <span className="label">Visual Studio Code</span>
         </a>
+                <a
+          className="platform-card"
+          href="https://open-vsx.org/extension/scottgriv/Dark-Castle"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/images/platforms/open-vsx-registry.png"
+            alt="Open VSX Registry"
+            className="icon"
+          />
+          <span className="label">Open VSX Registry</span>
+        </a>
         <a
           className="platform-card"
           href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Castle"
@@ -313,7 +326,7 @@ export default function Home() {
           />
           <span className="label">Wallpaper</span>
         </a>
-        {/* <a
+        <a
           className="platform-card"
           id="platform-github"
           href="https://github.com/scottgriv/Dark-Castle-Theme"
@@ -326,7 +339,7 @@ export default function Home() {
             className="icon"
           />
           <span className="label">GitHub Repository</span>
-        </a> */}
+        </a>
 
         {/* Add more platform cards as needed */}
       </div>
