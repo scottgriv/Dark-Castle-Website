@@ -31,8 +31,8 @@ export default function Home() {
 
   return (
     <Layout>
-      <h1 className="title-header-large">🏰 Dark Castle 🌲</h1>
-      <h1 className="title-header-small">🏰 Dark Castle 🌲</h1>
+      <h1 className="title-header-large">🏰 Welcome to the Castle! 🌲</h1>
+      <h1 className="title-header-small">🏰 Welcome to the Castle! 🌲</h1>
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
