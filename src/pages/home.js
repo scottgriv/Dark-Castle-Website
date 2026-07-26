@@ -31,8 +31,12 @@ export default function Home() {
 
   return (
     <Layout>
-      <h1 className="title-header-large">🏰 Welcome to the Castle! 🌲</h1>
-      <h1 className="title-header-small">🏰 Welcome to the Castle! 🌲</h1>
+      <h1 className="title-header-large">🏰 Welcome to the Castle 🌲</h1>
+      <h1 className="title-header-small">🏰 Welcome to <br />the Castle 🌲</h1>
+      <div className="downloads-badge">
+        <span className="downloads-badge-label">Total Theme Downloads</span>
+        <span className="downloads-badge-count">7,130</span>
+      </div>
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple

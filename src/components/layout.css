@@ -438,6 +438,34 @@ button:focus {
   display: block; /* Display the line break as a block element */
 }
 
+.downloads-badge {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto 16px;
+  overflow: hidden;
+  border: 1px solid #FF8040;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.downloads-badge-label,
+.downloads-badge-count {
+  padding: 5px 11px;
+}
+
+.downloads-badge-label {
+  background-color: #000000;
+  color: #FF8040;
+}
+
+.downloads-badge-count {
+  background-color: #FF8040;
+  color: #000000;
+  font-weight: 800;
+}
+
 /* Platform Grid Styling */
 .platform-grid {
   display: grid;
