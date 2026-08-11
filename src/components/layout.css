@@ -189,9 +189,9 @@ padding: 10px;
   padding: 0;
   border-radius: 10px;
   text-align: center;
-  margin: 0 auto;
+  /* The announcement is fixed, so reserve its measured height above the site. */
+  margin: var(--banner-height, 0px) auto 0;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  
 }
 
 #pagefoot {
@@ -919,6 +919,159 @@ body {
   #platform-github {
     grid-column: span 1; /* Span across all 3 columns */
   }
+}
+
+/* Make the banner full-width, fixed to the very top */
+@property --banner-height {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0px;
+}
+
+html {
+  transition: --banner-height 320ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.announcement-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 5000;
+  background: #007B88;
+  color: #fff;
+  transform: translateY(0);
+  transition: transform 320ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
+}
+
+.announcement-banner.is-hidden {
+  pointer-events: none;
+  transform: translateY(-100%);
+}
+
+.announcement-inner {
+  position: relative;
+  width: 100%;
+  min-height: 38px;
+  max-width: none;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 6px 59px 6px 27px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+.announcement-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+/* Optically center the font without moving the icon or close button. */
+.announcement-text > span {
+  display: block;
+  transform: translateY(1.2px);
+}
+
+.announcement-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: #BAE67E;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.announcement-label {
+  color: #fff;
+  font-weight: 700;
+}
+
+.announcement-message {
+  color: #d1d1d1;
+}
+
+.announcement-link {
+  color: #BAE67E;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.announcement-link:hover,
+.announcement-link:focus-visible {
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+.announcement-arrow {
+  display: inline-block;
+  width: 12px;
+  height: 9px;
+  margin-left: 1px;
+  vertical-align: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.announcement-close {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #fff !important;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  position: absolute;
+  top: 50%;
+  right: 19px;
+  padding: 4px 8px;
+  transform: translateY(-50%); /* base positioning */
+  transform-origin: center; /* scale from center */
+}
+
+.announcement-close-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.announcement-close:hover {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+/* Compact the alert when its content is likely to wrap onto multiple lines. */
+@media (max-width: 760px) {
+  .announcement-inner {
+    min-height: 52px;
+    padding: 10px 44px 10px 12px;
+  }
+
+  .announcement-close {
+    right: 4px;
+  }
+
+  .announcement-text {
+    font-size: 14px;
+  }
+
 }
 
 /* For iPhone 15 Pro Max */

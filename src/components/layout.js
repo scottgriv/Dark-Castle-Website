@@ -3,10 +3,12 @@ import Seo from "./seo"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import AnnouncementBanner from "./AnnouncementBanner"
 
 const Layout = ({ children }) => {
   const [showScroll, setShowScroll] = useState(false)
   const [scrollTimeout, setScrollTimeout] = useState(null)
+  const SHOW_BANNER = true
 
   useEffect(() => {
     // Ensure that window is available before adding event listeners
@@ -94,6 +96,24 @@ const Layout = ({ children }) => {
         title="Dark Castle Theme"
         description="A vibrantly elegant dark theme available for multiple platforms. Inspired by the timeless beauty and mystery of medieval castles, this theme combines rich, deep colors with a clean and modern design."
       />
+
+            {/* iconType="info"
+      iconType="warning"
+      iconType="success"
+      iconType="error"
+      iconType="none" */}
+
+      {SHOW_BANNER && (
+        <AnnouncementBanner
+          enabled={SHOW_BANNER}
+          iconType="info"
+          announcementLabel="Dark Castle Theme is now available on the Chrome Web Store!"
+          message="Check out our newest theme for Google Chrome and run your browser with style!"
+          ctaText="Learn More"
+          ctaHref="https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb"
+        />
+      )}
+
       <div id="pagecontent">
         <header>
           <Header />
