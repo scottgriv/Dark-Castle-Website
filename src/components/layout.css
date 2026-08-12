@@ -18,6 +18,26 @@
   font-style: normal;
 }
 
+/* Keep padding and borders inside declared widths throughout the layout. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Fallback for browsers without overflow: clip. */
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+}
+
+html {
+  touch-action: pan-y;
+}
+
 body {
   font-family: "ModernAntiqua", Arial, sans-serif; /* Use custom font */
   font-weight: 400; /* This will use the regular font */
@@ -192,6 +212,8 @@ padding: 10px;
   /* The announcement is fixed, so reserve its measured height above the site. */
   margin: var(--banner-height, 0px) auto 0;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 100%;
 }
 
 #pagefoot {
@@ -212,6 +234,7 @@ padding: 10px;
 #contentarea main {
   max-width: 1200px;
   width: 100%; /* Ensures the main content doesn't exceed the max-width */
+  min-width: 0; /* Allow flex content to shrink to the mobile viewport. */
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
@@ -771,14 +794,6 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
-  /* Reset box-sizing */
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-  
-
   .subtitle {
     text-align: center;
     color: #4dbced; /* Font color */
