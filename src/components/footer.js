@@ -23,7 +23,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-             <i className="fa-brands fa-obsidian"></i>
+              <i className="fa-brands fa-obsidian"></i>
             </a>
             <a
               href="https://chromewebstore.google.com/detail/dark-castle-theme/iljeoadcgeiojmaaiepfojppdjffkahb"
@@ -157,9 +157,26 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div id="pagefoot">
+        {/* <div id="pagefoot">
           Copyright © 2024-{new Date().getFullYear()} Scott Grivner & Night Owl
           Labs, LLC.<br />All Rights Reserved.
+        </div> */}
+        <div className="footer-note">
+          🦉 Designed and engineered by{" "}
+          <a
+            href="https://nightowllabs.io"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="NOL"
+          >
+            Night Owl Labs
+          </a>
+          .
+        </div>
+
+        <div className="copyright">
+          Copyright © 2024-{new Date().getFullYear()} Scott Grivner & Night Owl Labs, LLC. - All
+          Rights Reserved.
         </div>
       </div>
     </>

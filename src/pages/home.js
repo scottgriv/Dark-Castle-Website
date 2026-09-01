@@ -40,7 +40,7 @@ export default function Home() {
 
       <p>
         Dark Castle is a vibrantly elegant dark theme available for multiple
-        platforms, including VSCode, Obsidian, Sublime, Notepad++, Xcode and
+        platforms, including VSCode, Obsidian, Sublime, Chrome, Notepad++, Xcode and
         more, designed to provide a consistent and visually appealing coding
         experience.
         <br />

@@ -84,7 +84,7 @@ hr {
   border: none; /* Remove the default border */
   border-top: 2px solid #2d449b; /* Set the top border color and thickness */
   width: 67%; /* Set the desired width */
-  margin-bottom: 20px auto; /* Center the <hr> element */
+  margin: 30px auto 20px; /* Add space above and center the divider */
 }
 
 .bulletin-board-container {
@@ -104,9 +104,11 @@ hr {
   padding-bottom: 30px;
   font-size: 1em;
   position: relative; /* Necessary for positioning the thumbtack icon */
-  height: 300px; /* Set a fixed height */
+  min-height: 300px; /* Keep cards substantial while allowing longer content to fit */
+  height: 100%; /* Match the tallest card in the row */
   width: 350px; /* Set a fixed height */
-  overflow: hidden; /* Hides content that overflows the fixed height */
+  box-sizing: border-box;
+  overflow: hidden; /* Contain the decorative shimmer */
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2); /* Adds a subtle dark shadow */
 }
 
@@ -216,14 +218,49 @@ padding: 10px;
   max-width: 100%;
 }
 
-#pagefoot {
-  font-size: 0.8em; /* Adjust the font size to make it smaller */
-  color: #9c9c9c; /* Font color */
-  text-align: center; /* Center the text */
-  margin: 0 auto;
-  max-width: 1200px; /* Maximum width for the content */
-  padding: 15px; /* Padding on the sides for responsiveness */
+/* Footer Note & Copyright */
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #9C9C9C;
+  font-size: small;
+  white-space: nowrap;
 }
+
+.footer-note {
+  padding-top: 10px;
+  color: #9C9C9C;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.footer-note a {
+  color: #ffd580;
+  text-decoration: none !important;
+}
+
+.footer-note a:hover {
+  color: #ff8040;
+  text-decoration: none !important;
+}
+
+@media (max-width: 600px) {
+  .footer-note {
+    padding-top: 20px;
+    color: #9C9C9C;
+    font-size: small;
+    font-weight: bold;
+  }
+}
+
+/* #pagefoot {
+  font-size: 0.8em;
+  color: #9c9c9c;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 15px;
+} */
 
 #contentarea {
   display: flex;
@@ -243,6 +280,7 @@ padding: 10px;
 .social-links-wrapper {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 .social-links,
@@ -879,9 +917,9 @@ body {
     font-size: 25px;
   }
 
-  #pagefoot {
+  /* #pagefoot {
     font-size: 10px;
-  }
+  } */
 
   .scroll-to-top {
     width: 50px; /* Set width and height to be the same for a circle */
