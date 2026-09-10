@@ -832,6 +832,13 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
+  /* Keep the Gatsby root and the page panel inside a consistent mobile gutter. */
+  #___gatsby,
+  #gatsby-focus-wrapper {
+    width: 100%;
+    min-width: 0;
+  }
+
   .subtitle {
     text-align: center;
     color: #4dbced; /* Font color */
@@ -869,7 +876,8 @@ body {
   }
 
   body {
-    padding: 15px;
+    padding: 15px max(15px, env(safe-area-inset-right)) 15px
+      max(15px, env(safe-area-inset-left));
     font-size: 17px; /* Set default font size */
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
@@ -888,7 +896,7 @@ body {
     border-radius: 5px;
     box-shadow: none;
     width: 100%; /* Ensures page content fits the screen width */
-    max-width: none; /* Overrides any max-width set elsewhere */
+    max-width: 100%;
     padding: 0 15px; /* Adds padding to prevent content from touching the edges */
     box-sizing: border-box;
   }
@@ -948,6 +956,10 @@ body {
   .platform-card {
     width: 100%; /* Ensure full width on mobile */
     padding: 15px;
+  }
+
+  .bulletin-board {
+    width: 100%;
   }
 
   .color-palette-grid {
