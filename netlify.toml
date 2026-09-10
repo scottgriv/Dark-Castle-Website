@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+# Gatsby HTML contains the current hashed CSS filename. Always revalidate it so
+# a browser or CDN cannot keep an older page pointing at stale styles.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Hashed Gatsby assets are immutable and safe to cache long-term.
+[[headers]]
+  for = "/styles.*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
