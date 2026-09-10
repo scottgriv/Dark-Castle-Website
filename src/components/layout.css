@@ -828,6 +828,19 @@ body {
   .responsive-hide {
     display: none;
   }
+
+  /* Netlify's mobile preview can be wider than the 600px phone breakpoint. */
+  #pagefoot .footer-note {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+  }
+
+  #pagefoot .copyright {
+    font-size: 10px !important;
+    line-height: 1.35 !important;
+    padding-inline: 8px;
+    white-space: normal !important;
+  }
 }
 
 /* Mobile Styles */
