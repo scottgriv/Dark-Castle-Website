@@ -876,8 +876,8 @@ body {
   }
 
   body {
-    padding: 15px max(15px, env(safe-area-inset-right)) 15px
-      max(15px, env(safe-area-inset-left));
+    padding: 8px max(8px, env(safe-area-inset-right)) 8px
+      max(8px, env(safe-area-inset-left));
     font-size: 17px; /* Set default font size */
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
@@ -897,13 +897,33 @@ body {
     box-shadow: none;
     width: 100%; /* Ensures page content fits the screen width */
     max-width: 100%;
-    padding: 0 15px; /* Adds padding to prevent content from touching the edges */
+    padding: 0 8px; /* Small inner gutter for mobile content. */
     box-sizing: border-box;
   }
 
+  #pagecontent > header {
+    margin-inline: -8px;
+  }
+
+  #headlogo,
+  #headlogo a {
+    display: block;
+    width: 100%;
+  }
+
   #contentarea main {
-    padding: 0 10px;
+    padding: 0 6px;
     box-sizing: border-box;
+  }
+
+  .footer-note {
+    font-size: 12px;
+  }
+
+  .copyright {
+    font-size: 11px;
+    line-height: 1.35;
+    white-space: normal;
   }
 
   #pagecontent,
